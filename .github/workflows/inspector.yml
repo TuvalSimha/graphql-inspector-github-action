@@ -42,8 +42,6 @@ jobs:
         uses: actions/checkout@v2
 
       - uses: kamilkisiela/graphql-inspector@master
-        timeout-minutes: 5
         with:
-          schema: 'master:br24-cms/schema.graphql'
-          annotations: true
-          fail-on-breaking: false
+          schema: br24-cms/schema.graphql # important to define a path to schema file, without a branch
+          endpoint: 'https://pikud-haoref-graphql-api.tuval-simha.workers.dev/graphql'
