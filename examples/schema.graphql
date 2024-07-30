@@ -1,0 +1,13 @@
+type Food {
+  name: String!
+  calories: Int!
+  price: Float!
+}
+
+type Menu {
+  foods: [Food!]!
+}
+
+type Query {
+  menu: Menu!
+}
