@@ -44,6 +44,6 @@ jobs:
       - uses: kamilkisiela/graphql-inspector@master
         timeout-minutes: 5
         with:
-          schema: 'main:br24-cms/schema.graphql'
+          schema: 'master:br24-cms/schema.graphql'
           annotations: true
           fail-on-breaking: false
