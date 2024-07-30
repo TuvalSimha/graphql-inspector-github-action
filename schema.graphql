@@ -5,7 +5,7 @@ type Food {
 }
 
 type Menu {
-  foods: [Foods!]!
+  foods: [Food!]!
 }
 
 type Query {
