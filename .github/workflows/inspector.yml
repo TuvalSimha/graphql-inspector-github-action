@@ -45,3 +45,5 @@ jobs:
         with:
           schema: br24-cms/schema.graphql # important to define a path to schema file, without a branch
           endpoint: 'https://pikud-haoref-graphql-api.tuval-simha.workers.dev/graphql'
+          annotations: true
+          fail-on-breaking: false
